@@ -1,0 +1,18 @@
+/*
+Theme Name: KAAO
+Theme URI: https://kaao.co.ke/
+Author: John Charles Otieno — Technology Assistant Intern, KAAO
+Author URI: https://github.com/john-otienoh
+Description: Institutional WordPress theme for the Kenya Association of Air Operators. Hand-built, dependency-free, design-token driven, and tuned for Core Web Vitals, WCAG 2.2 AA and structured SEO. Ships the KAAO content model (members, events, advocacy, leadership, resources, FAQs) as first-class custom post types.
+Version: 1.0.0
+Requires at least: 6.5
+Tested up to: 7.0
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kaao
+Tags: association, institutional, accessibility-ready, custom-menu, custom-logo, translation-ready
+
+This file carries the theme header only. All styles live in assets/css/main.css
+so that a single, cacheable stylesheet is served. See docs/architecture.md.
+*/

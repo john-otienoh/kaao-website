@@ -1,0 +1,1 @@
+{"type":2,"name":"Default Config Job","destinations":[1],"default":true,"backup_contains":3,"schedules":[{"_id":5,"type":2,"retain":2,"next_run":1760486400}],"schedule_time":"00:00","enabled":true,"hidden":true,"unique_id":"68ee358300074e4c00000007","_id":2}
