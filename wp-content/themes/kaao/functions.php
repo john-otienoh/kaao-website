@@ -43,6 +43,7 @@ foreach (
 		'routes',         // Nested URLs the page hierarchy cannot express.
 		'redirects',      // 301 map protecting the legacy kaao.co.ke URLs.
 		'contact',        // Core-only contact form handler.
+		'member-access',  // Authentication and authorisation for member-only pages.
 		'admin',          // Editor experience for KAAO staff.
 	) as $kaao_module
 ) {

@@ -1706,6 +1706,46 @@ input::placeholder, textarea::placeholder { color: #8B95A5; }
 .form-status--ok    { background: #EAF6EE; border-left: 3px solid #2E7D4F; color: #1E5233; }
 .form-status--error { background: #FDECEC; border-left: 3px solid #B3261E; color: #8C1D18; }
 
+/* Branded member-login endpoint. Kept separate from generic form fields so
+   contact and registration forms retain their existing compact layout. */
+.kaao-member-login-page .kaao-main {
+	background: linear-gradient(135deg, #F2F7FA 0%, #FFFFFF 52%, #EDF6F2 100%);
+}
+.kaao-member-login-page .section { padding-block: clamp(3.5rem, 8vw, 7rem); }
+.kaao-member-login-card {
+	max-width: 42rem;
+	margin: 0 auto;
+	padding: clamp(1.75rem, 5vw, 3.5rem);
+	background: var(--kaao-surface);
+	border: 1px solid var(--kaao-border);
+	border-radius: var(--card-radius);
+	box-shadow: 0 1.25rem 3.5rem rgba(13, 42, 67, .10);
+}
+.kaao-member-login-card .eyebrow { margin: 0 0 var(--sp-3); }
+.kaao-member-login-card h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); }
+.kaao-member-login-card > p { margin: var(--sp-3) 0 0; color: var(--kaao-muted); }
+.kaao-member-login { margin-top: var(--sp-7); }
+.kaao-member-login .field { gap: var(--sp-2); margin-bottom: var(--sp-6); }
+.kaao-member-login .field > label { font-size: var(--fs-sm); font-weight: 700; }
+.kaao-member-login input[type="text"],
+.kaao-member-login input[type="password"] {
+	min-height: 3.25rem;
+	padding: .8rem 1rem;
+	border: 1px solid var(--kaao-border);
+	border-radius: .5rem;
+	background: #FFF;
+	font: inherit;
+}
+.kaao-member-login input:focus-visible {
+	outline: 3px solid rgba(31, 111, 79, .28);
+	outline-offset: 2px;
+	border-color: var(--kaao-primary-700);
+}
+.kaao-member-login .check { display: flex; gap: var(--sp-2); align-items: center; margin: var(--sp-2) 0 var(--sp-7); font-size: var(--fs-sm); }
+.kaao-member-login .check input { inline-size: 1.1rem; block-size: 1.1rem; accent-color: var(--kaao-primary-700); }
+.kaao-member-login .btn { width: 100%; justify-content: center; }
+.kaao-member-login-card .form-status { margin-top: var(--sp-5); }
+
 .table-wrap { overflow-x: auto; margin-bottom: var(--sp-6); }
 table { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); }
 caption { text-align: left; padding-bottom: var(--sp-3); color: var(--kaao-muted); font-size: var(--fs-sm); }
